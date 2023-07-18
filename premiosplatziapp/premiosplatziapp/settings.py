@@ -31,6 +31,7 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
+    'polls.apps.PollsConfig', # Esta línea "instala" la app Polls que yo creé. Tratar de poner las apps nativas y las creadas por mi en un sólo bloque (al principio o al final, pero todas agrupadas)
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
